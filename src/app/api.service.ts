@@ -8,7 +8,7 @@ import { Users } from "./users";
 })
 
 export class ApiService {
-    dbUrl: string = "http://localhost/PlataformaRH/backend/";
+    dbUrl: string = "https://back-end-vision-corp-b44mn6pns-cgtznoemis-projects.vercel.app";
     constructor(private httpClient: HttpClient) {}
 
     public userRegistro(NombreUsuario: any, correoElectronico: any, Password: any, ClaveDeRegistro: any) {
