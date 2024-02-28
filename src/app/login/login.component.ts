@@ -30,6 +30,7 @@ export class LoginComponent {
         )
         .pipe(first()).subscribe({
           next: (data) => {
+            console.error(data);
             if (data.message === 'success') {
               console.log(data);
               // redirect = this.dataService.redirectUrl ? this.dataService.redirectUrl : '/dashboard';
