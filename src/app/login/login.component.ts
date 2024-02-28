@@ -41,6 +41,7 @@ export class LoginComponent {
             }
           },
           error: (error) => {
+            console.error(error);
             alert("El correo y/o la contraseña son incorrectas");
           }
         });
