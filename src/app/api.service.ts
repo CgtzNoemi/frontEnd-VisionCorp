@@ -8,7 +8,7 @@ import { Users } from "./users";
 })
 
 export class ApiService {
-    dbUrl: string = "https://backendvisioncorp.000webhostapp.com";
+    dbUrl: string = "http://backendvisioncorp.000webhostapp.com";
     constructor(private httpClient: HttpClient) {}
 
     public userRegistro(NombreUsuario: any, correoElectronico: any, Password: any, ClaveDeRegistro: any) {
