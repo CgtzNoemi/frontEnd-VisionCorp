@@ -9,7 +9,7 @@ import { Users } from "./users";
 
 export class ApiService {
 
-    dbUrl: string = "https://backend-visioncorp-production.up.railway.app";
+    dbUrl: string = "https://backend-visioncorp-production-f74c.up.railway.app";
 
     constructor(private httpClient: HttpClient) {}
 
